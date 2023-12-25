@@ -47,6 +47,8 @@ change(100)  # 200, 400, 780, 1520, 3040
 
 
 # function in for loops #
+
+listo = [100, 200, 400, 800, 1600]
 def change2(m, n):
     return int(m + m * n / 100)
 
@@ -58,3 +60,14 @@ for m in listo:
         print(change2(m, 25))
     else:
         print(change2(m, 20))  # 130, 260, 500, 960, 1920
+
+
+# The break Statement #
+
+listo = [100, 200, 400, 800, 1600]
+
+for i in listo:
+    print(i)
+    if i == 400:
+        break  # 100, 200, 400
+    
