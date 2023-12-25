@@ -77,5 +77,5 @@ for i in listo:
         continue
     print(i)  # 100, 200, 800, 1600
 
-# enumarate #   
+
 
