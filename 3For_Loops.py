@@ -1,6 +1,5 @@
 # First glance #
 
-
 for i in "istanbul":
     print(i)  # i , s , t, a, n ,b ,u ,l (this output one under the other)
 
@@ -77,4 +76,4 @@ for i in listo:
     if i == 400:
         continue
     print(i)  # 100, 200, 800, 1600
-    
+
