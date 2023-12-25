@@ -70,6 +70,8 @@ sequence(10)
 # 55 and list1 = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
 
 sequence(17)
+
+
 # 153 and list1 = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153]
 
 ###########################
@@ -77,7 +79,7 @@ def periodic_function(x):
     if 0 < x <= 5:
         return x + 3
     elif x > 5:
-        return periodic_function(x-5)
+        return periodic_function(x - 5)
     else:
         print("Input must be bigger than zero")
 
@@ -87,7 +89,3 @@ periodic_function(5)  # 8
 periodic_function(13)  # 6
 periodic_function(31)  # 4
 periodic_function(3.5)  # 6.5
-
-
-
-
