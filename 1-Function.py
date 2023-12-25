@@ -1,6 +1,4 @@
 # Function Structures #
-
-
 def function0():
     print("Hello, I am a function")
 
@@ -8,6 +6,7 @@ def function0():
 function0()  # Hello, I am a function
 
 
+#################################
 def function1(x):
     print(x + 99)
 
@@ -16,6 +15,7 @@ function1(1)  # 100
 function1(88)  # 187
 
 
+#################################
 def function2(x):
     print(x ** x)
 
@@ -24,6 +24,7 @@ function2(3)  # 27
 function2(5)  # 125
 
 
+#############################
 def function3(x, y):
     print(x * y)
 
@@ -32,6 +33,7 @@ function3(5, 18)  # 90
 function3(13717421, 9)  # 123456789
 
 
+###########################
 def function4(x, y=7):
     print((x + y) * 2)
 
@@ -40,6 +42,7 @@ function4(3)  # 20
 function4(53)  # 120
 
 
+################################
 def function5(x, y):
     print(x + " " + y)
 
@@ -81,6 +84,7 @@ function8(5)  # 15
 function8(5) * 2  # 30
 
 
+##############################
 def function9(x, y, z):
     a = (x ** 2) + (3 * x) + 5
     b = (y ** 2) + (5 * y) + 4
@@ -113,6 +117,7 @@ nested(1, 2, 3, 5, 7)  # (32.0, 128.0)
 nested(1, 3, 4, 1, 2)  # (2.6666666666666665, 7.111111111111111)
 
 
+########################
 def nested11(x, y):
     return x + y
 
