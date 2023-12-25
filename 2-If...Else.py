@@ -4,10 +4,12 @@ number1 = 39
 number2 = 49
 
 if number1 > number2:
-    print("number1 is greater than number2")  #
+    print("number1 is greater than number2")
+#
 
 if number1 < number2:
-    print("number1 is less than number2")  # number1 is less than number2
+    print("number1 is less than number2")
+# number1 is less than number2
 
 # Nested If Structures #
 
@@ -18,9 +20,10 @@ if number3 > 50:
     if number3 > 80:
         print("and also above eighty,")
         if number3 < 100:
-            print("and also below a hundred.")  # Number3 is above fifty,
-            # and also above eighty,
-            # and also below a hundred.
+            print("and also below a hundred.")
+# Number3 is above fifty,
+# and also above eighty,
+# and also below a hundred.
 
 # Elif #
 
@@ -32,7 +35,8 @@ number4 = 99
 if number3 > number4:
     print("number3 is greater than number4")
 elif number3 == number4:
-    print("number3 and number4  are equals")  # number3 and number4  are equals
+    print("number3 and number4  are equals")
+# number3 and number4  are equals
 
 # Else #
 
@@ -45,7 +49,8 @@ if number1 > number2:
 elif number1 == number2:
     print("number1 and number2 are equal")
 else:
-    print("number2 is greater than number1")  # number2 is greater than number1
+    print("number2 is greater than number1")
+# number2 is greater than number1
 
 # if is in function #
 
@@ -61,11 +66,13 @@ def sequence(r):
     return result
 
 
-sequence(10)  # 55 and list1 = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
+sequence(10)
+# 55 and list1 = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
 
-sequence(17)  # 153 and list1 = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153]
+sequence(17)
+# 153 and list1 = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153]
 
-
+###########################
 def periodic_function(x):
     if 0 < x <= 5:
         return x + 3
