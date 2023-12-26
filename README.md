@@ -1,6 +1,6 @@
 ![function](https://github.com/Bilgehanyaylali/Functions-If-Else-Loops/assets/151865735/92f0846c-5341-4be9-aadd-4a547e765c6d)
 
-I got help from w3schools site for these definitions. Good reading.
+ I got help from w3schools site for these definitions. Good reading.
 
 A function is a block of code which only runs when it is called.
 You can pass data, known as parameters, into a function.
